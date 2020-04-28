@@ -2,12 +2,12 @@ html{
     margin:0px;
 }
 .navbar{
-    background-color: rgb(15, 124, 167) !important;
+    background-color:#B30049 !important;
     box-sizing: border-box;
 } 
 
 a.nav-link{
-    color: #212529;
+    color: #EDC8FE;
     padding-left: 20px;
     text-align: center;
 }
@@ -37,10 +37,16 @@ h2{
     font-size: 60px;
     text-align: center;
     margin-bottom: 0px;
+    color: #EDC8FE;
+}
+.para{
+    color:#EDC8FE;
+    text-align: center;
+    font-size: 30px;
 }
 .container-fluid{
     padding: 40px 0px 0px 0px;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-color: #070D0D;
 }
 .row{
     margin-right: 0px;
