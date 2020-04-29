@@ -10,7 +10,7 @@ img[src="csgo.jpg"]{
     height:500px;
 }
 .navbar{
-    background-image: linear-gradient(to right, #4b6cb7, #182848) !important;
+    background-image: linear-gradient(to right, #1c2a49, #182848) !important;
     box-sizing: border-box;
 } 
 
@@ -60,7 +60,7 @@ h2{
 }
 .container-fluid{
     padding: 40px 0px 0px 0px;
-    background-image: linear-gradient(to right, #4b6cb7, #182848);
+    background: #062543 url("hexbg.png");
 }
 .row{
     margin-right: 0px;
