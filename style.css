@@ -1,13 +1,21 @@
 html{
     margin:0px;
 }
+img[src="d2.jpg"]{
+    width:100%; 
+    height:500px;
+}
+img[src="csgo.jpg"]{
+    width:100%; 
+    height:500px;
+}
 .navbar{
-    background-color:#B30049 !important;
+    background-image: linear-gradient(to right, #4b6cb7, #182848) !important;
     box-sizing: border-box;
 } 
 
 a.nav-link{
-    color: #EDC8FE;
+    color: whitesmoke;
     padding-left: 20px;
     text-align: center;
 }
@@ -37,16 +45,22 @@ h2{
     font-size: 60px;
     text-align: center;
     margin-bottom: 0px;
-    color: #EDC8FE;
+    color: whitesmoke;
+}
+.dota2 a:hover{
+    -webkit-filter: brightness(150%);
+}
+.csgo a:hover{
+    -webkit-filter: brightness(150%);
 }
 .para{
-    color:#EDC8FE;
+    color:whitesmoke;
     text-align: center;
     font-size: 30px;
 }
 .container-fluid{
     padding: 40px 0px 0px 0px;
-    background-color: #070D0D;
+    background-image: linear-gradient(to right, #4b6cb7, #182848);
 }
 .row{
     margin-right: 0px;
@@ -63,10 +77,7 @@ h2{
 .csgo{
     padding-top: 40px;
 }
-@media only screen and (max-width: 600px) {
-    body {
-        height: 700px;
-    }
+@media only screen and (max-width: 740px) {
     .row{
         display:flex;
         flex-direction: column;
@@ -82,4 +93,18 @@ h2{
         display:flex;
         flex-direction: row;
     }
-  }
+}
+@media only screen and (max-width: 1400px){
+    .row{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .navbar{
+        position: relative;
+    }
+    .navbar-nav{
+        display:flex;
+        flex-direction: row;
+    }
+}
