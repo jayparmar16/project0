@@ -1,3 +1,4 @@
+/* ########## FOR INDEX.HTML ######### */
 html{
     margin:0px;
 }
@@ -48,10 +49,10 @@ h2{
     color: whitesmoke;
 }
 .dota2 a:hover{
-    -webkit-filter: brightness(150%);
+    filter: brightness(150%);
 }
 .csgo a:hover{
-    -webkit-filter: brightness(150%);
+    filter: brightness(150%);
 }
 .para{
     color:whitesmoke;
@@ -108,3 +109,4 @@ h2{
         flex-direction: row;
     }
 }
+/* ########## FOR INDEX.HTML ######### */
