@@ -84,6 +84,7 @@ body{
 
 }
 @media only screen and (max-width: 740px) {
+
     .row{
         display:flex;
         flex-direction: column;
@@ -101,6 +102,12 @@ body{
     }
 }
 @media only screen and (max-width: 1400px){
+   .dota2{
+      border: 1px solid whitesmoke;
+}
+.csgo{
+border:1px solid whitesmoke;
+}
     .row{
         display:flex;
         flex-direction: column;
