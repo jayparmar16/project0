@@ -38,9 +38,9 @@ body{
     margin: 0px 0px 0px 0px;
     height: auto;
     width: 100%;
-    background-color: white;
+    background-color: #1B2431;
 }
-h2{
+.banner h2{
     padding-top: 40px 0px 25px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 60px;
@@ -129,7 +129,8 @@ a.nav-link-dota:hover{
 .dotaban{
     width: 100%;
     padding-left: 1%;
-    padding-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 .btn {
     background-color: DodgerBlue;
@@ -140,7 +141,7 @@ a.nav-link-dota:hover{
     cursor: pointer;
   }
 
-  /* Darker background on mouse-over */
+  
   .btn:hover {
     background-color: RoyalBlue;
   }
@@ -233,4 +234,22 @@ hr{
 }
 .front h1{
     text-align: center;
+    color: whitesmoke;
+}
+
+.abouninfo{
+    width: 100vw;
+    padding-top: 2%;
+}
+.aboutinfo h2{
+    padding-left: 2%;
+  
+    padding-top: 20%;
+    color: whitesmoke;
+}
+.aboutinfo h3{
+   padding-left: 2%;
+    color: whitesmoke;
+   
+    padding-top: 5%;
 }
