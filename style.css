@@ -16,8 +16,9 @@ img[src="csgo.jpg"]{
 }
 
 a.nav-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: whitesmoke;
-    padding-left: 20px;
+    padding-left: 1%;
     text-align: center;
 }
 a.nav-link:hover{
@@ -26,7 +27,7 @@ a.nav-link:hover{
 }
 li.nav-item{
     margin-left: 5px;
-    padding-left: 20px;
+    padding-left: 1%;
     text-align: center;
     padding-right: 20px;
 }
@@ -239,17 +240,22 @@ hr{
 
 .abouninfo{
     width: 100vw;
+     position: relative;
+     margin-left: -50vw;
+     left: 50%;
     padding-top: 2%;
 }
 .aboutinfo h2{
     padding-left: 2%;
-  
-    padding-top: 20%;
+    padding-top: 10%;
     color: whitesmoke;
 }
 .aboutinfo h3{
+    width: 100%;
    padding-left: 2%;
     color: whitesmoke;
-   
     padding-top: 5%;
+}
+.teamsportal{
+    padding-left: 2%;padding-top:2%;padding-right: 2%;
 }
