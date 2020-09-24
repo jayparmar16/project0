@@ -1,4 +1,4 @@
-# Project 0
+# Project 0 For MIT Course
 
 Web Programming with Python and JavaScript
 
